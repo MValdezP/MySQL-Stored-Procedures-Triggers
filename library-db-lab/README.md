@@ -1,4 +1,4 @@
-#  Library DB Lab - Jala University
+#  Library DB Lab
 
 Laboratorio de Base de Datos relacional para la gestión de una biblioteca, desarrollado como práctica para la materia de **Bases de Datos II**. Este proyecto implementa un diseño DDL versionado, procedimientos almacenados (Stored Procedures), triggers para auditoría y control de stock automático, todo compatible con **MySQL 8.0+**.
 
