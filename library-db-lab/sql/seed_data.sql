@@ -26,9 +26,6 @@ INSERT INTO socios (dni, nombre, apellidos, email, telefono, fecha_registro) VAL
 ('99999999I', 'Miguel', 'Torres', 'miguel.torres@email.com', '555-0009', '2025-09-01'),
 ('00000000J', 'Lucía', 'Flores', 'lucia.flores@email.com', '555-0010', '2025-10-18');
 
--- NOTA: Insertaremos préstamos iniciales asumiendo que los triggers de INSERT/UPDATE están activos.
--- Esto hará que automáticamente el stock disponible baje y se generen registros en auditoría.
--- En un entorno real o durante la ejecución secuencial completa, estos inserts validarán los triggers.
 INSERT INTO prestamos (id_libro, id_socio, fecha_prestamo, fecha_devolucion_esperada, estado) VALUES
 (1, 1, '2026-05-01', '2026-05-15', 'ACTIVO'),
 (2, 2, '2026-05-02', '2026-05-16', 'ACTIVO'),
