@@ -1,11 +1,9 @@
 USE library_db;
 
--- ==========================================
 -- PRUEBAS Y VERIFICACIONES DEL LABORATORIO
--- ==========================================
 
 -- 1. Verificación Inicial de Stock
--- Comprobamos cómo quedó el stock después del seed_data (debería reflejar los préstamos activos)
+-- Comprobamos cómo quedó el stock después del seed_data 
 SELECT '--- 1. ESTADO DEL STOCK ---' AS Test;
 SELECT id_libro, titulo, stock_total, stock_disponible FROM libros WHERE id_libro IN (1, 4, 10);
 
